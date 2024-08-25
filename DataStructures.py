@@ -43,15 +43,14 @@ print(s[(s.index("fullstackslp")+len("fullstackslp"))::-1])
  
  
 d1 = {'simple_key':'hello'} 
-print() 
- 
- 
+print(d1['simple_key']) 
+  
 d2 = {'k1':{'k2':'hello'}} 
-print() 
+print(d2['k1']['k2']) 
  
  
 d3 = {'k1':[{'nest_key':['this is deep',['hello']]}]} 
-print() 
+print(d3['k1'][0]['nest_key'][1][0]) 
  
  
 ############### 
