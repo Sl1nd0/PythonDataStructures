@@ -61,16 +61,18 @@ print(d3['k1'][0]['nest_key'][1][0])
  
 mylist = [1,1,1,1,1,2,2,2,2,3,3,3,3] 
 #Your code here: 
- 
+numbers_list = set(mylist)
+
+print(numbers_list)
+
 ############### 
 ## Problem 5 - FORMATTING - 5 Marks## 
 ############### 
- 
- 
+  
 # You are given the variables:
 
-ge = 45 
+age = 45 
 name = "Kyle" 
 # Use print formatting to print the following string 
 # "Hello my dog's name is Kyle and he looks 45 years old" 
-print() 
+print("Hello my dog's name is {0} and he looks 45 years old" .format(name) .format(age)) 
