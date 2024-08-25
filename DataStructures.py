@@ -30,9 +30,6 @@ print(s[s.index("cks"): s.index("cks")+len("cks")])
  
 # Bonus: Use indexing to reverse the STRINGS 
 print(s[(s.index("fullstackslp")+len("fullstackslp"))::-1]) 
-
-#test = "abc";
-#x= lambda test, print(test[1])
  
 ############## 
 ## Problem 2 - LISTS - 5 Marks## 
