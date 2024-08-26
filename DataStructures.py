@@ -72,4 +72,4 @@ age = 45
 name = "Kyle" 
 # Use print formatting to print the following string 
 # "Hello my dog's name is Kyle and he looks 45 years old" 
-print("Hello my dog's name is {0} and he looks 45 years old" .format(name) .format(age)) 
+print("Hello my dog's name is {0} and he looks {1} years old" .format(name, age))
